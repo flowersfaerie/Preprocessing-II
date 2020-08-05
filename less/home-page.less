@@ -1,3 +1,16 @@
+header {
+	max-width: 800px;
+	width: 100%;
+	margin: 0 auto;
+	
+	.hContent {
+		
+		img {
+			margin-bottom: 10px;
+		}
+	}
+}
+
 .home {
 
   .content-section {
@@ -59,3 +72,17 @@
     }
   }
 }// home
+
+.btn {
+	.signMeUp (flex-start, space-around, center);
+	background: @button-bg;
+	border: 2px solid darken(@button-bg, 3%);
+	border-radius: 10px;
+	padding: 10px 20px;
+	margin: 5%;
+	color: aquamarine;
+	
+	&:hover {
+		background: darken(@button-bg, 10%);
+	}
+}
